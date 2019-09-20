@@ -1,5 +1,5 @@
-FROM  node:alpine
-MAINTAINER cowpanda<ynw506@gmail.com>
+FROM  node:12-alpine
+MAINTAINER ducy<ducy-ios@163.com>
 RUN npm install -g pm2@latest
 
 COPY pm2_init /pm2_init
